@@ -183,7 +183,7 @@ body {
   position: relative;
 }
 
-#page-6{
+#page-6 {
   display: flex;
   align-items: start;
   justify-content: center;
@@ -194,16 +194,164 @@ body {
   flex-direction: column;
   font-family: first_font;
 }
-#page-6>h3{
+#page-6 > h3 {
   margin-left: 10vw;
   font-weight: 300;
   color: #fff;
   margin-bottom: 2vw;
 }
-#page-6>h1{
+#page-6 > h1 {
   margin-left: 10vw;
   font-size: 3.5vw;
   width: 70%;
   font-weight: 100;
   color: #ffffff53;
+}
+
+#page-7 {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #0a3cce;
+}
+
+#page-7 > canvas {
+  position: relative;
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+.page7-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9;
+  height: 30vw;
+  width: 30vw;
+  /* background-color: red; */
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+.page7-cir-inner {
+  height: 70%;
+  width: 70%;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+#page8 {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #0a3cce;
+}
+
+#page8 > video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.page8-bottom {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.page8-bottom > h1 {
+  color: white;
+  font-family: first_font;
+  margin-bottom: 2vw;
+  font-size: 5vw;
+  font-weight: 100;
+}
+
+.page8-bottom>button{
+  padding: 20px 30px;
+  border-radius: 50px;
+  border: none;
+  background-color: #fff;
+  color: #0a3cce;
+}
+
+#page9{
+  display: flex;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #0a3cce;
+}
+
+.left9{
+  height: 100%;
+  width: 40%;
+  position: relative;
+  font-family: first_font;
+}
+
+.left9>h1{
+  position: absolute;
+  top: 40%;
+  right: 5%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 5vw;
+  font-weight: 100;
+  line-height: 1;
+}
+
+.right9{
+  height: 100%;
+  width: 60%;
+  position: relative;
+}
+
+.right9-center{
+  height: 60%;
+  width: 85%;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: url(https://thisismagma.com/wp-content/uploads/2023/04/magma.wp2.cubdev.com-home-1.jpeg);
+  background-size: cover;
+  left: 5%;
+}
+
+#page10{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #0a3cce;
+}
+.right10{
+  height: 100%;
+  width: 60%;
+  position: relative;
+  left: 40%;
+}
+.right10-inner{
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  height: 33.3%;
+  width: 100%;
+  font-family: first_font;
+  color: #fff;
+}
+.right10-inner>h1{
+  font-size: 2vw;
+}
+.right10-inner>p{
+  margin-top: 2vw;
+  font-size: 1.3vw;
+  width: 80%;
 }
